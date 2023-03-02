@@ -1,0 +1,9 @@
+# IDE Files
+.vs/
+
+# Output Folder
+out/
+
+# User specific files
+CMakeSettings.json
+CMakePresets.json

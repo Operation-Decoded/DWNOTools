@@ -1,0 +1,380 @@
+{
+  "DIGIMON_PARAM": {
+    "flag": 0,
+    "structure": [
+      {
+        "name": "id",
+        "type": "hash"
+      },
+      {
+        "name": "model",
+        "type": "vstring8"
+      },
+      {
+        "name": "growthType",
+        "type": "def_int"
+      },
+      {
+        "name": "personality",
+        "type": "def_int"
+      },
+      {
+        "name": "attribute",
+        "type": "def_int"
+      },
+      {
+        "name": "specialty",
+        "type": "int"
+      },
+      {
+        "name": "weakness",
+        "type": "int"
+      },
+      {
+        "name": "favorite",
+        "type": "def_int"
+      },
+      {
+        "name": "lifeStyle",
+        "type": "def_int"
+      },
+      {
+        "name": "toilet",
+        "type": "def_int"
+      },
+      {
+        "name": "mealSize",
+        "type": "def_int"
+      },
+      {
+        "name": "sleepTime",
+        "type": "def_int"
+      },
+      {
+        "name": "nature",
+        "type": "def_int"
+      },
+      {
+        "name": "floatType",
+        "type": "def_int"
+      },
+      {
+        "name": "stepType",
+        "type": "def_int"
+      },
+      {
+        "name": "headRotLimitX",
+        "type": "float"
+      },
+      {
+        "name": "headRotLimitY",
+        "type": "float"
+      },
+      {
+        "name": "permitDamage",
+        "type": "int"
+      },
+      {
+        "name": "attack1",
+        "type": "def_hash"
+      },
+      {
+        "name": "attack2",
+        "type": "def_hash"
+      },
+      {
+        "name": "attack3",
+        "type": "def_hash"
+      },
+      {
+        "name": "attack4",
+        "type": "def_hash"
+      },
+      {
+        "name": "specialAttack",
+        "type": "def_hash"
+      },
+      {
+        "name": "specialCode",
+        "type": "hash"
+      },
+      {
+        "name": "tensionSkill",
+        "type": "def_hash"
+      },
+      {
+        "name": "dlcNumber",
+        "type": "int"
+      },
+      {
+        "name": "flags",
+        "type": "int"
+      },
+      {
+        "name": "hp",
+        "type": "int"
+      },
+      {
+        "name": "mp",
+        "type": "int"
+      },
+      {
+        "name": "offense",
+        "type": "int"
+      },
+      {
+        "name": "defense",
+        "type": "int"
+      },
+      {
+        "name": "brains",
+        "type": "int"
+      },
+      {
+        "name": "speed",
+        "type": "int"
+      },
+      {
+        "name": "lifetime",
+        "type": "int"
+      },
+      {
+        "name": "weight",
+        "type": "int"
+      },
+      {
+        "name": "seType",
+        "type": "def_int"
+      },
+      {
+        "name": "crySE",
+        "type": "def_int"
+      },
+      {
+        "name": "effectSize",
+        "type": "float"
+      },
+      {
+        "name": "bulletMagnification",
+        "type": "float"
+      },
+      {
+        "name": "cameraMagnificationX",
+        "type": "float"
+      },
+      {
+        "name": "cameraMagnificationZ",
+        "type": "float"
+      },
+      {
+        "name": "talkEventScale",
+        "type": "float"
+      },
+      {
+        "name": "talkEventPos1",
+        "type": "def_int"
+      },
+      {
+        "name": "talkEventPos2",
+        "type": "def_int"
+      },
+      {
+        "name": "talkEventPos3",
+        "type": "def_int"
+      },
+      {
+        "name": "talkEventPos4",
+        "type": "def_int"
+      },
+      {
+        "name": "talkEventPos5",
+        "type": "def_int"
+      },
+      {
+        "name": "talkEventPos6",
+        "type": "def_int"
+      },
+      {
+        "name": "talkEventPos7",
+        "type": "def_int"
+      },
+      {
+        "name": "evoHP",
+        "type": "int"
+      },
+      {
+        "name": "evoMP",
+        "type": "int"
+      },
+      {
+        "name": "evoOFF",
+        "type": "int"
+      },
+      {
+        "name": "evoDEF",
+        "type": "int"
+      },
+      {
+        "name": "evoBRN",
+        "type": "int"
+      },
+      {
+        "name": "evoSPD",
+        "type": "int"
+      },
+      {
+        "name": "evoWeight",
+        "type": "int"
+      },
+      {
+        "name": "evoCare",
+        "type": "int"
+      },
+      {
+        "name": "evoHappiness",
+        "type": "int"
+      },
+      {
+        "name": "evoDiscipline",
+        "type": "int"
+      },
+      {
+        "name": "evoBattles",
+        "type": "int"
+      },
+      {
+        "name": "evoHasDigimon1",
+        "type": "def_hash"
+      },
+      {
+        "name": "evoHasDigimon2",
+        "type": "def_hash"
+      },
+      {
+        "name": "evoHasDigimon3",
+        "type": "def_hash"
+      },
+      {
+        "name": "evoQuota",
+        "type": "int"
+      },
+      {
+        "name": "evoTarget1",
+        "type": "def_hash"
+      },
+      {
+        "name": "evoTarget2",
+        "type": "def_hash"
+      },
+      {
+        "name": "evoTarget3",
+        "type": "def_hash"
+      },
+      {
+        "name": "evoTarget4",
+        "type": "def_hash"
+      },
+      {
+        "name": "evoTarget5",
+        "type": "def_hash"
+      },
+      {
+        "name": "evoFlag",
+        "type": "def_hash"
+      },
+      {
+        "name": "dlcFlag",
+        "type": "def_hash"
+      },
+      {
+        "name": "evoSource1",
+        "type": "def_hash"
+      },
+      {
+        "name": "evoSource2",
+        "type": "def_hash"
+      },
+      {
+        "name": "evoSource3",
+        "type": "def_hash"
+      },
+      {
+        "name": "evoSource4",
+        "type": "def_hash"
+      },
+      {
+        "name": "evoSource5",
+        "type": "def_hash"
+      },
+      {
+        "name": "possibleJogress",
+        "type": "def_hash"
+      },
+      {
+        "name": "jogress",
+        "type": "def_hash"
+      },
+      {
+        "name": "possibleMiracle",
+        "type": "def_hash"
+      },
+      {
+        "name": "miracle",
+        "type": "def_hash"
+      },
+      {
+        "name": "partnerFlag",
+        "type": "int"
+      },
+      {
+        "name": "infoId",
+        "type": "vstring8"
+      },
+      {
+        "name": "footPrintType",
+        "type": "def_int"
+      },
+      {
+        "name": "fcmdEntryType",
+        "type": "def_int"
+      }
+    ]
+  },
+  "TALKPOS_PARAM": {
+    "flag": 0,
+    "structure": [
+      {
+        "name": "unk_float_0",
+        "type": "float"
+      },
+      {
+        "name": "unk_float_1",
+        "type": "float"
+      },
+      {
+        "name": "unk_float_2",
+        "type": "float"
+      },
+      {
+        "name": "unk_float_3",
+        "type": "float"
+      },
+      {
+        "name": "unk_float_4",
+        "type": "float"
+      },
+      {
+        "name": "unk_float_5",
+        "type": "float"
+      },
+      {
+        "name": "unk_float_6",
+        "type": "float"
+      },
+      {
+        "name": "unk_float_7",
+        "type": "float"
+      }
+    ]
+  }
+}

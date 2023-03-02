@@ -1,0 +1,6 @@
+{
+  "lang.*": "lang.json",
+  "TownGradeUpData\\.": "TownGradeUpData.json",
+  "DigimonData\\.": "DigimonData.json",
+  "TrainingData\\.": "TrainingData.json"
+}

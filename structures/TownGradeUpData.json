@@ -1,0 +1,128 @@
+{
+  "PARAM1": {
+    "flag": 0,
+    "structure": [
+      {
+        "name": "id",
+        "type": "hash"
+      },
+      {
+        "name": "description",
+        "type": "hash"
+      },
+      {
+        "name": "building",
+        "type": "def_int"
+      },
+      {
+        "name": "costsLv2",
+        "type": "hash"
+      },
+      {
+        "name": "costsLv3",
+        "type": "hash"
+      },
+      {
+        "name": "costsLv4",
+        "type": "hash"
+      },
+      {
+        "name": "costsLv5",
+        "type": "hash"
+      },
+      {
+        "name": "upgradeTime",
+        "type": "int"
+      },
+      {
+        "name": "flag0",
+        "type": "def_hash"
+      },
+      {
+        "name": "flag1",
+        "type": "def_hash"
+      },
+      {
+        "name": "flag2",
+        "type": "def_hash"
+      },
+      {
+        "name": "flag3",
+        "type": "def_hash"
+      },
+      {
+        "name": "flag4",
+        "type": "def_hash"
+      },
+      {
+        "name": "flag5",
+        "type": "def_hash"
+      },
+      {
+        "name": "flag6",
+        "type": "def_hash"
+      },
+      {
+        "name": "flag7",
+        "type": "def_hash"
+      }
+    ]
+  },
+  "PARAM2": {
+    "flag": 0,
+    "structure": [
+      {
+        "name": "id",
+        "type": "hash"
+      },
+      {
+        "name": "material1",
+        "type": "hash"
+      },
+      {
+        "name": "count1",
+        "type": "int"
+      },
+      {
+        "name": "material2",
+        "type": "hash"
+      },
+      {
+        "name": "count2",
+        "type": "int"
+      },
+      {
+        "name": "material3",
+        "type": "hash"
+      },
+      {
+        "name": "count3",
+        "type": "int"
+      },
+      {
+        "name": "material4",
+        "type": "hash"
+      },
+      {
+        "name": "count4",
+        "type": "int"
+      },
+      {
+        "name": "material5",
+        "type": "hash"
+      },
+      {
+        "name": "count5",
+        "type": "int"
+      },
+      {
+        "name": "material6",
+        "type": "hash"
+      },
+      {
+        "name": "count6",
+        "type": "int"
+      }
+    ]
+  }
+}

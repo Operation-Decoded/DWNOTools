@@ -1,0 +1,19 @@
+{
+  "PARAM1" : {
+    "flag" : 0,
+    "structure" : [
+      {
+        "name" : "id",
+        "type" : "hash"
+      },
+      {
+        "name" : "kind",
+        "type" : "def_int"
+      },
+      {
+        "name" : "dayBonusIndex",
+        "type" : "def_int"
+      }
+    ]
+  }
+}

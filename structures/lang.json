@@ -1,0 +1,15 @@
+{
+  "GA_LANGUAGE2": {
+    "flag": 0,
+    "structure": [
+      {
+        "name": "Hash",
+        "type": "hash"
+      },
+      {
+        "name": "string",
+        "type": "vstring8"
+      }
+    ]
+  }
+}

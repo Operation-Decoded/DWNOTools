@@ -21,8 +21,10 @@ This project uses CMake in combination [CPM.cmake](https://github.com/cpm-cmake/
 
 Building the project should be a simple
 
+You will need a C++20 compatible compiler that supports std::format.
+
 ```
-$ git clone git@github.com:Operation-Decoded/BinaryDataConverter.git
+$ git clone git@github.com:Operation-Decoded/DWNOTools.git
 $ cd <project dir>
 $ cmake .
 $ make install
@@ -31,7 +33,6 @@ $ make install
 ## Important Notice
 By default CPM.cmake will download all the dependencies, which includes Boost. This can take up to 3 GiB of disk space and take a while.
 You can modify and optimize this behavior by configuring CPM environment variables. Please refer to their [documentation](https://github.com/cpm-cmake/CPM.cmake#Options).
-
 
 # Contact
 * Discord: SydMontague#8056, or in either the [Digimon Modding Community](https://discord.gg/cb5AuxU6su) or [Digimon Discord Community](https://discord.gg/0VODO3ww0zghqOCO)

@@ -95,9 +95,6 @@ int main(int count, char* args[])
                 {
                     if (!path.is_regular_file()) continue;
 
-                    std::cout << path << std::endl;
-                    std::cout << output / std::filesystem::relative(path.path().parent_path(), input) << std::endl;
-
                     CSVBExporter exporter(path);
                     if (exporter.isValid())
                         exporter.write(output / std::filesystem::relative(path.path().parent_path(), input));

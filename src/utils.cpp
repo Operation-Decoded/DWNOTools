@@ -110,7 +110,7 @@ boost::json::object getStructureFile(std::filesystem::path source, bool useRaw)
 
     if (useRaw)
     {
-        auto folderName               = source.parent_path().filename();
+        auto folderName               = source.has_filename() ? source.filename() : source.parent_path().filename();
         std::filesystem::path rawPath = (getRawStructuresPath() / folderName).concat(".json");
         if (std::filesystem::is_regular_file(rawPath)) return boost::json::parse(getFileAsString(rawPath)).as_object();
     }

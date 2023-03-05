@@ -14,6 +14,7 @@ If given a folder it will recursively search for all compatible files.
 To rebuild a file run:
 1. Run `DWNOTools.exe -p -i <pathToFolder> -o <pathToOutputFile>`
 
+**Do not use Microsoft Excel to modify extracted CSV files, it does not create RFC 4180 compliant CSV. Use LibreOffice/OpenOffice as an alternative.**
 
 # Building
 

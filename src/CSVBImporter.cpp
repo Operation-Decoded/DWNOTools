@@ -10,6 +10,8 @@ CSVBImporter::CSVBImporter(std::filesystem::path inputPath)
 
     auto structure = getStructureFile(inputPath, true);
 
+    if (structure.size() == 0) throw std::runtime_error("No structure found. Aborting.");
+
     strings.add("");
 
     for (auto& table : structure)

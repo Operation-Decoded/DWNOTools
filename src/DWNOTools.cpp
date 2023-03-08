@@ -7,23 +7,18 @@
 #include <iostream>
 #include <string>
 
-/* Hashing algorithm
-public static uint makeHash(string hashString)
-    {
-        if (hashString == null || hashString.Length <= 0)
-        {
-            return uint.MaxValue;
-        }
-        byte[] bytes = Encoding.ASCII.GetBytes(hashString);
-        uint num = 2166136261u;
-        for (int i = 0; i < bytes.Length; i++)
-        {
-            num *= 16777619;
-            num ^= bytes[i];
-        }
-        return num;
+uint32_t makeHash(std::string& input) {
+    if(input.empty())
+        return 0xFFFFFFFF;
+
+    uint32_t num = 2166136261u;
+    for(auto c : input) {
+        num *= 16777619;
+        num ^= c;
     }
-*/
+
+    return num;
+}
 
 int main(int count, char* args[])
 {
@@ -39,6 +34,7 @@ int main(int count, char* args[])
         options("help,h", "This text.");
         options("input,i", po::value<std::string>(), "Input file or folder. Required");
         options("output,o", po::value<std::string>(), "Output file or folder. Required");
+        options("hash,H", po::value<std::string>(), "Hashes the input string the way the game would.");
         options(
             "pack,p",
             "Build a CSVB file out of the given input folder. The folder name must correspond to a valid structure.");
@@ -53,7 +49,15 @@ int main(int count, char* args[])
         if (vm.count("help"))
         {
             std::cout << desc << std::endl;
-            return 1;
+            return 0;
+        }
+
+        if(vm.count("hash")) {
+            auto string = vm["hash"].as<std::string>();
+            auto hash = makeHash(string);
+
+            std::cout << std::format("{} -> 0x{:8x}", string, hash);
+            return 0;
         }
 
         if (!vm.count("input"))

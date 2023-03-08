@@ -1,0 +1,27 @@
+{
+  "RECOVERY_PARAM" : {
+    "flag" : 0,
+    "structure" : [
+      {
+        "name" : "id",
+        "type" : "hash"
+      },
+      {
+        "name" : "description",
+        "type" : "hash"
+      },
+      {
+        "name" : "hpRecovery",
+        "type" : "int"
+      },
+      {
+        "name" : "mpRecovery",
+        "type" : "int"
+      },
+      {
+        "name" : "range",
+        "type" : "int"
+      }
+    ]
+  }
+}

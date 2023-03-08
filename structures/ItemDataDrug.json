@@ -1,0 +1,35 @@
+{
+  "DRUG_PARAM" : {
+    "flag" : 0,
+    "structure" : [
+      {
+        "name" : "id",
+        "type" : "hash"
+      },
+      {
+        "name" : "description",
+        "type" : "hash"
+      },
+      {
+        "name" : "unk1",
+        "type" : "int"
+      },
+      {
+        "name" : "unk2",
+        "type" : "int"
+      },
+      {
+        "name" : "unk3",
+        "type" : "int"
+      },
+      {
+        "name" : "unk4",
+        "type" : "int"
+      },
+      {
+        "name" : "unk5",
+        "type" : "int"
+      }
+    ]
+  }
+}

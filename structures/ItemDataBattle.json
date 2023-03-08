@@ -1,0 +1,35 @@
+{
+  "BATTLE_PARAM" : {
+    "flag" : 0,
+    "structure" : [
+      {
+        "name" : "id",
+        "type" : "hash"
+      },
+      {
+        "name" : "description",
+        "type" : "hash"
+      },
+      {
+        "name" : "target",
+        "type" : "def_int"
+      },
+      {
+        "name" : "range",
+        "type" : "def_int"
+      },
+      {
+        "name" : "effectKind",
+        "type" : "def_int"
+      },
+      {
+        "name" : "effectValue",
+        "type" : "float"
+      },
+      {
+        "name" : "chance",
+        "type" : "int"
+      }
+    ]
+  }
+}

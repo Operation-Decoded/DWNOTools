@@ -1,0 +1,35 @@
+{
+  "COOKING_PARAM" : {
+    "flag" : 0,
+    "structure" : [
+      {
+        "name" : "id",
+        "type" : "hash"
+      },
+      {
+        "name" : "item1",
+        "type" : "def_hash"
+      },
+      {
+        "name" : "item2",
+        "type" : "def_hash"
+      },
+      {
+        "name" : "item3",
+        "type" : "def_hash"
+      },
+      {
+        "name" : "sortId",
+        "type" : "int"
+      },
+      {
+        "name" : "sellerId",
+        "type" : "int"
+      },
+      {
+        "name" : "grade",
+        "type" : "int"
+      }
+    ]
+  }
+}

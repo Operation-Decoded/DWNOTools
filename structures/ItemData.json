@@ -1,0 +1,79 @@
+{
+  "ITEM_PARAM" : {
+    "flag" : 0,
+    "structure" : [
+      {
+        "name" : "id",
+        "type" : "def_hash"
+      },
+      {
+        "name" : "kind",
+        "type" : "def_int"
+      },
+      {
+        "name" : "class",
+        "type" : "def_int"
+      },
+      {
+        "name" : "sortId",
+        "type" : "int"
+      },
+      {
+        "name" : "price",
+        "type" : "int"
+      },
+      {
+        "name" : "initialAmount",
+        "type" : "int"
+      },
+      {
+        "name" : "setPriority",
+        "type" : "int"
+      },
+      {
+        "name" : "triggeredSound",
+        "type" : "vstring8"
+      },
+      {
+        "name" : "modelName",
+        "type" : "vstring8"
+      },
+      {
+        "name" : "modelVariation",
+        "type" : "int"
+      },
+      {
+        "name" : "iconName",
+        "type" : "vstring8"
+      },
+      {
+        "name" : "effectName",
+        "type" : "vstring8"
+      },
+      {
+        "name" : "offsetPX",
+        "type" : "float"
+      },
+      {
+        "name" : "offsetPY",
+        "type" : "float"
+      },
+      {
+        "name" : "offsetPZ",
+        "type" : "float"
+      },
+      {
+        "name" : "offsetRZ",
+        "type" : "float"
+      },
+      {
+        "name" : "offsetRY",
+        "type" : "float"
+      },
+      {
+        "name" : "offsetRZ",
+        "type" : "float"
+      }
+    ]
+  }
+}

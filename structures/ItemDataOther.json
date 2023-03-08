@@ -1,0 +1,47 @@
+{
+  "OTHER_PARAM" : {
+    "flag" : 0,
+    "structure" : [
+      {
+        "name" : "id",
+        "type" : "hash"
+      },
+      {
+        "name" : "description",
+        "type" : "hash"
+      },
+      {
+        "name" : "hpMax",
+        "type" : "int"
+      },
+      {
+        "name" : "mpMax",
+        "type" : "int"
+      },
+      {
+        "name" : "offense",
+        "type" : "int"
+      },
+      {
+        "name" : "defense",
+        "type" : "int"
+      },
+      {
+        "name" : "brains",
+        "type" : "int"
+      },
+      {
+        "name" : "speed",
+        "type" : "int"
+      },
+      {
+        "name" : "lifetime",
+        "type" : "int"
+      },
+      {
+        "name" : "howToUse",
+        "type" : "def_int"
+      }
+    ]
+  }
+}

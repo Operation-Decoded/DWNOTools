@@ -1,0 +1,131 @@
+{
+  "FOOD_PARAM" : {
+    "flag" : 0,
+    "structure" : [
+      {
+        "name" : "id",
+        "type" : "hash"
+      },
+      {
+        "name" : "description",
+        "type" : "hash"
+      },
+      {
+        "name" : "foodType",
+        "type" : "def_int"
+      },
+      {
+        "name" : "bonds",
+        "type" : "int"
+      },
+      {
+        "name" : "trust",
+        "type" : "int"
+      },
+      {
+        "name" : "activityTime",
+        "type" : "int"
+      },
+      {
+        "name" : "hpMax",
+        "type" : "int"
+      },
+      {
+        "name" : "hp",
+        "type" : "int"
+      },
+      {
+        "name" : "mpMax",
+        "type" : "int"
+      },
+      {
+        "name" : "mp",
+        "type" : "int"
+      },
+      {
+        "name" : "offense",
+        "type" : "int"
+      },
+      {
+        "name" : "defense",
+        "type" : "int"
+      },
+      {
+        "name" : "brains",
+        "type" : "int"
+      },
+      {
+        "name" : "speed",
+        "type" : "int"
+      },
+      {
+        "name" : "weight",
+        "type" : "int"
+      },
+      {
+        "name" : "lifetime",
+        "type" : "int"
+      },
+      {
+        "name" : "education",
+        "type" : "int"
+      },
+      {
+        "name" : "mood",
+        "type" : "int"
+      },
+      {
+        "name" : "curse",
+        "type" : "int"
+      },
+      {
+        "name" : "saturation",
+        "type" : "int"
+      },
+      {
+        "name" : "genkiDegree",
+        "type" : "int"
+      },
+      {
+        "name" : "careMistake",
+        "type" : "int"
+      },
+      {
+        "name" : "trainingCorrectionHP",
+        "type" : "int"
+      },
+      {
+        "name" : "trainingCorrectionMP",
+        "type" : "int"
+      },
+      {
+        "name" : "trainingCorrectionOff",
+        "type" : "int"
+      },
+      {
+        "name" : "trainingCorrectionDef",
+        "type" : "int"
+      },
+      {
+        "name" : "trainingCorrectionBrains",
+        "type" : "int"
+      },
+      {
+        "name" : "trainingCorrectionSpeed",
+        "type" : "int"
+      },
+      {
+        "name" : "effectTimer",
+        "type" : "int"
+      },
+      {
+        "name" : "conditionClear",
+        "type" : "int"
+      },
+      {
+        "name" : "sickChance",
+        "type" : "int"
+      }
+    ]
+  }
+}

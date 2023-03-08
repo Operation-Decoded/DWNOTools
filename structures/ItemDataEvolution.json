@@ -1,0 +1,19 @@
+{
+  "EVOLUTION_PARAM" : {
+    "flag" : 0,
+    "structure" : [
+      {
+        "name" : "id",
+        "type" : "hash"
+      },
+      {
+        "name" : "description",
+        "type" : "hash"
+      },
+      {
+        "name" : "digimonId",
+        "type" : "def_hash"
+      }
+    ]
+  }
+}

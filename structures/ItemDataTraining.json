@@ -1,0 +1,55 @@
+{
+  "TRAINING_PARAM" : {
+    "flag" : 0,
+    "structure" : [
+      {
+        "name" : "unk_hash_0",
+        "type" : "hash"
+      },
+      {
+        "name" : "unk_hash_1",
+        "type" : "hash"
+      },
+      {
+        "name" : "unk_int_2",
+        "type" : "int"
+      },
+      {
+        "name" : "unk_int_3",
+        "type" : "int"
+      },
+      {
+        "name" : "unk_int_4",
+        "type" : "int"
+      },
+      {
+        "name" : "unk_int_5",
+        "type" : "int"
+      },
+      {
+        "name" : "unk_int_6",
+        "type" : "int"
+      },
+      {
+        "name" : "unk_int_7",
+        "type" : "int"
+      },
+      {
+        "name" : "unk_int_8",
+        "type" : "int"
+      },
+      {
+        "name" : "unk_int_9",
+        "type" : "int"
+      },
+      {
+        "name" : "unk_int_10",
+        "type" : "int"
+      },
+      {
+        "name" : "unk_int_11",
+        "type" : "int"
+      }
+    ]
+  }
+}

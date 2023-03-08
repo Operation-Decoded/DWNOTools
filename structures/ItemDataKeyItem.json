@@ -1,0 +1,15 @@
+{
+  "KEY_ITEM_PARAM" : {
+    "flag" : 0,
+    "structure" : [
+      {
+        "name" : "id",
+        "type" : "hash"
+      },
+      {
+        "name" : "description",
+        "type" : "hash"
+      }
+    ]
+  }
+}

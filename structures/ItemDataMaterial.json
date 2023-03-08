@@ -1,0 +1,31 @@
+{
+  "PARAM1" : {
+    "flag" : 0,
+    "structure" : [
+      {
+        "name" : "id",
+        "type" : "hash"
+      },
+      {
+        "name" : "description",
+        "type" : "hash"
+      },
+      {
+        "name" : "constructionDescription",
+        "type" : "hash"
+      },
+      {
+        "name" : "type",
+        "type" : "int"
+      },
+      {
+        "name" : "expansionId",
+        "type" : "hash"
+      },
+      {
+        "name" : "convergentId",
+        "type" : "hash"
+      }
+    ]
+  }
+}

@@ -1,6 +1,16 @@
 {
   "lang.*": "lang.json",
-  "TownGradeUpData\\.": "TownGradeUpData.json",
-  "DigimonData\\.": "DigimonData.json",
-  "TrainingData\\.": "TrainingData.json"
+  "(^|[\\\\/])TownGradeUpData($|[\\.\\\\/])": "TownGradeUpData.json",
+  "(^|[\\\\/])DigimonData($|[\\.\\\\/])": "DigimonData.json",
+  "(^|[\\\\/])ItemDataBattle($|[\\.\\\\/])": "ItemDataBattle.json",
+  "(^|[\\\\/])ItemDataDrug($|[\\.\\\\/])": "ItemDataDrug.json",
+  "(^|[\\\\/])ItemDataEvolution($|[\\.\\\\/])": "ItemDataEvolution.json",
+  "(^|[\\\\/])ItemDataFood($|[\\.\\\\/])": "ItemDataFood.json",
+  "(^|[\\\\/])ItemDataKeyItem($|[\\.\\\\/])": "ItemDataKeyItem.json",
+  "(^|[\\\\/])ItemDataMaterial($|[\\.\\\\/])": "ItemDataMaterial.json",
+  "(^|[\\\\/])ItemDataOther($|[\\.\\\\/])": "ItemDataOther.json",
+  "(^|[\\\\/])ItemDataRecovery($|[\\.\\\\/])": "ItemDataRecovery.json",
+  "(^|[\\\\/])ItemDataTraining($|[\\.\\\\/])": "ItemDataTraining.json",
+  "(^|[\\\\/])ItemData($|[\\.\\\\/])": "ItemData.json",
+  "(^|[\\\\/])CookingData($|[\\.\\\\/])": "CookingData.json"
 }

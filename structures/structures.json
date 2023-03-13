@@ -12,5 +12,7 @@
   "(^|[\\\\/])ItemDataRecovery($|[\\.\\\\/])": "ItemDataRecovery.json",
   "(^|[\\\\/])ItemDataTraining($|[\\.\\\\/])": "ItemDataTraining.json",
   "(^|[\\\\/])ItemData($|[\\.\\\\/])": "ItemData.json",
-  "(^|[\\\\/])CookingData($|[\\.\\\\/])": "CookingData.json"
+  "(^|[\\\\/])CookingData($|[\\.\\\\/])": "CookingData.json",
+  "(^|[\\\\/])AttackData($|[\\.\\\\/])": "AttackData.json",
+  "(^|[\\\\/])map_[0-9]{4}($|[\\.\\\\/])": "map.json"
 }

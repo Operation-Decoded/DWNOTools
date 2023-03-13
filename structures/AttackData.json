@@ -1,0 +1,288 @@
+{
+  "ATTACK_PARAM" : {
+    "flag" : 0,
+    "structure" : [
+      {
+        "name" : "id",
+        "type" : "hash"
+      },
+      {
+        "name" : "type",
+        "type" : "hash"
+      },
+      {
+        "name" : "description",
+        "type" : "hash"
+      },
+      {
+        "name" : "iconName",
+        "type" : "vstring8"
+      },
+      {
+        "name" : "flagId",
+        "type" : "int"
+      },
+      {
+        "name" : "nature",
+        "type" : "def_int"
+      },
+      {
+        "name" : "power",
+        "type" : "int"
+      },
+      {
+        "name" : "break",
+        "type" : "int"
+      },
+      {
+        "name" : "mpCost",
+        "type" : "int"
+      },
+      {
+        "name" : "opCost",
+        "type" : "int"
+      },
+      {
+        "name" : "offenseUp",
+        "type" : "float"
+      },
+      {
+        "name" : "offenseUpTime",
+        "type" : "int"
+      },
+      {
+        "name" : "defenseUp",
+        "type" : "float"
+      },
+      {
+        "name" : "defenseUpTime",
+        "type" : "int"
+      },
+      {
+        "name" : "brainsUp",
+        "type" : "float"
+      },
+      {
+        "name" : "brainsUpTime",
+        "type" : "int"
+      },
+      {
+        "name" : "speedUp",
+        "type" : "float"
+      },
+      {
+        "name" : "speedUpTime",
+        "type" : "int"
+      },
+      {
+        "name" : "statusType",
+        "type" : "def_int"
+      },
+      {
+        "name" : "statusChance",
+        "type" : "float"
+      },
+      {
+        "name" : "statusTime",
+        "type" : "float"
+      },
+      {
+        "name" : "type",
+        "type" : "def_int"
+      },
+      {
+        "name" : "range",
+        "type" : "int"
+      },
+      {
+        "name" : "kind",
+        "type" : "def_int"
+      },
+      {
+        "name" : "offset0",
+        "type" : "def_int"
+      },
+      {
+        "name" : "size",
+        "type" : "float"
+      },
+      {
+        "name" : "distance",
+        "type" : "float"
+      },
+      {
+        "name" : "speed",
+        "type" : "float"
+      },
+      {
+        "name" : "rushSpeed",
+        "type" : "float"
+      },
+      {
+        "name" : "homing",
+        "type" : "float"
+      },
+      {
+        "name" : "motionNo",
+        "type" : "def_int"
+      },
+      {
+        "name" : "motionSpeed",
+        "type" : "float"
+      },
+      {
+        "name" : "collisionStart",
+        "type" : "float"
+      },
+      {
+        "name" : "collisionTime",
+        "type" : "float"
+      },
+      {
+        "name" : "effect1",
+        "type" : "vstring8"
+      },
+      {
+        "name" : "offset1",
+        "type" : "def_int"
+      },
+      {
+        "name" : "effectSize1",
+        "type" : "float"
+      },
+      {
+        "name" : "effectStartTime1",
+        "type" : "float"
+      },
+      {
+        "name" : "effect2",
+        "type" : "vstring8"
+      },
+      {
+        "name" : "offset2",
+        "type" : "def_int"
+      },
+      {
+        "name" : "effectSize2",
+        "type" : "float"
+      },
+      {
+        "name" : "effectStartTime2",
+        "type" : "float"
+      },
+      {
+        "name" : "effect3",
+        "type" : "vstring8"
+      },
+      {
+        "name" : "offset3",
+        "type" : "def_int"
+      },
+      {
+        "name" : "effectSize3",
+        "type" : "float"
+      },
+      {
+        "name" : "effectStartTime3",
+        "type" : "float"
+      },
+      {
+        "name" : "effect4",
+        "type" : "vstring8"
+      },
+      {
+        "name" : "offset4",
+        "type" : "def_int"
+      },
+      {
+        "name" : "effectSize4",
+        "type" : "float"
+      },
+      {
+        "name" : "damageMotionNo",
+        "type" : "def_int"
+      },
+      {
+        "name" : "knockbackPower",
+        "type" : "float"
+      },
+      {
+        "name" : "launchPower",
+        "type" : "float"
+      },
+      {
+        "name" : "hitSlow",
+        "type" : "float"
+      },
+      {
+        "name" : "hitSlowTime",
+        "type" : "float"
+      },
+      {
+        "name" : "quakePower",
+        "type" : "float"
+      },
+      {
+        "name" : "quakeTime",
+        "type" : "float"
+      },
+      {
+        "name" : "bulletCount",
+        "type" : "int"
+      },
+      {
+        "name" : "bulltInterval",
+        "type" : "float"
+      },
+      {
+        "name" : "bulletBarake",
+        "type" : "float"
+      }
+    ]
+  },
+  "OFFSET_PARAM" : {
+    "flag" : 0,
+    "structure" : [
+      {
+        "name" : "defineName",
+        "type" : "vstring8"
+      },
+      {
+        "name" : "location",
+        "type" : "def_int"
+      },
+      {
+        "name" : "name",
+        "type" : "vstring8"
+      },
+      {
+        "name" : "rotX",
+        "type" : "float"
+      },
+      {
+        "name" : "rotY",
+        "type" : "float"
+      },
+      {
+        "name" : "rotZ",
+        "type" : "float"
+      },
+      {
+        "name" : "posX",
+        "type" : "float"
+      },
+      {
+        "name" : "posY",
+        "type" : "float"
+      },
+      {
+        "name" : "posZ",
+        "type" : "float"
+      },
+      {
+        "name" : "releaseLink",
+        "type" : "def_int"
+      }
+    ]
+  }
+}

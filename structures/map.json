@@ -1,0 +1,217 @@
+{
+  "PLACEMENT_PARAM" : {
+    "flag" : 0,
+    "structure" : [
+      {
+        "name" : "paramId",
+        "type" : "hash"
+      },
+      {
+        "name" : "unitNo",
+        "type" : "def_int"
+      },
+      {
+        "name" : "id",
+        "type" : "def_hash"
+      },
+      {
+        "name" : "attack1",
+        "type" : "def_hash"
+      },
+      {
+        "name" : "attack2",
+        "type" : "def_hash"
+      },
+      {
+        "name" : "attack3",
+        "type" : "def_hash"
+      },
+      {
+        "name" : "attack4",
+        "type" : "def_hash"
+      },
+      {
+        "name" : "useSpHp",
+        "type" : "int"
+      },
+      {
+        "name" : "bedTime",
+        "type" : "def_int"
+      },
+      {
+        "name" : "wakeupTime",
+        "type" : "def_int"
+      },
+      {
+        "name" : "level",
+        "type" : "def_int"
+      },
+      {
+        "name" : "hp",
+        "type" : "int"
+      },
+      {
+        "name" : "mp",
+        "type" : "int"
+      },
+      {
+        "name" : "offense",
+        "type" : "int"
+      },
+      {
+        "name" : "defense",
+        "type" : "int"
+      },
+      {
+        "name" : "brains",
+        "type" : "int"
+      },
+      {
+        "name" : "speed",
+        "type" : "int"
+      },
+      {
+        "name" : "permitDamage",
+        "type" : "int"
+      },
+      {
+        "name" : "bits",
+        "type" : "int"
+      },
+      {
+        "name" : "exp",
+        "type" : "int"
+      },
+      {
+        "name" : "itemDropNo",
+        "type" : "int"
+      },
+      {
+        "name" : "startX",
+        "type" : "float"
+      },
+      {
+        "name" : "startY",
+        "type" : "float"
+      },
+      {
+        "name" : "startZ",
+        "type" : "float"
+      },
+      {
+        "name" : "startRotation",
+        "type" : "float"
+      },
+      {
+        "name" : "routeId",
+        "type" : "int"
+      },
+      {
+        "name" : "moveRange",
+        "type" : "int"
+      },
+      {
+        "name" : "vigilanceDist",
+        "type" : "float"
+      },
+      {
+        "name" : "chaseDist",
+        "type" : "float"
+      },
+      {
+        "name" : "chaseTime",
+        "type" : "float"
+      },
+      {
+        "name" : "caseSpeedMult",
+        "type" : "float"
+      },
+      {
+        "name" : "alarmDist",
+        "type" : "float"
+      },
+      {
+        "name" : "incidence",
+        "type" : "int"
+      },
+      {
+        "name" : "battleBGM",
+        "type" : "def_int"
+      }
+    ]
+  },
+  "ROUTE_PARAM" : {
+    "flag" : 0,
+    "structure" : [
+      {
+        "name" : "id",
+        "type" : "int"
+      },
+      {
+        "name" : "point1",
+        "type" : "int"
+      },
+      {
+        "name" : "point2",
+        "type" : "int"
+      },
+      {
+        "name" : "point3",
+        "type" : "int"
+      },
+      {
+        "name" : "point4",
+        "type" : "int"
+      },
+      {
+        "name" : "point5",
+        "type" : "int"
+      },
+      {
+        "name" : "point6",
+        "type" : "int"
+      },
+      {
+        "name" : "point7",
+        "type" : "int"
+      },
+      {
+        "name" : "point8",
+        "type" : "int"
+      }
+    ]
+  },
+  "POINT_PARAM" : {
+    "flag" : 0,
+    "structure" : [
+      {
+        "name" : "id",
+        "type" : "int"
+      },
+      {
+        "name" : "posX",
+        "type" : "float"
+      },
+      {
+        "name" : "posY",
+        "type" : "float"
+      },
+      {
+        "name" : "posZ",
+        "type" : "float"
+      },
+      {
+        "name" : "action",
+        "type" : "def_int"
+      },
+      {
+        "name" : "actionTimer",
+        "type" : "int"
+      },
+      {
+        "name" : "moveRunType",
+        "type" : "def_int"
+      }
+    ]
+  }
+}

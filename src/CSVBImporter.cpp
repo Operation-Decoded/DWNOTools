@@ -85,7 +85,21 @@ uint32_t CSVBImporter::convertValue(std::string type, std::string value)
         case DataType::HASH32:
         case DataType::DEF_HASH32:
         {
-            return std::stoul(value.c_str(), nullptr, 16);
+            auto length = value.length();
+            auto hash   = makeHash(value);
+
+            if (length >= 6 && length <= 8)
+            {
+                try
+                {
+                    hash = std::stoul(value.c_str(), nullptr, 16);
+                }
+                catch (std::exception& e)
+                {
+                }
+            }
+
+            return hash;
         }
         case DataType::VSTRING_UTF8:
         {

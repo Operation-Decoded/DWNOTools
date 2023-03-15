@@ -3,6 +3,8 @@
 #include <fstream>
 #include <regex>
 
+RainbowTable RainbowTable::instance;
+
 // taken from Boost.JSON documentation
 // https://www.boost.org/doc/libs/1_80_0/libs/json/doc/html/json/examples.html#json.examples.pretty
 // Licensed under Boost Software License, Version 1.0
@@ -120,3 +122,18 @@ boost::json::object getStructureFile(std::filesystem::path source, bool useRaw)
 
 std::filesystem::path getStructuresPath() { return "structures"; }
 std::filesystem::path getRawStructuresPath() { return getStructuresPath() / "raw"; }
+
+
+uint32_t makeHash(const std::string& input)
+{
+    if (input.empty()) return 0xFFFFFFFF;
+
+    uint32_t num = 2166136261u;
+    for (auto c : input)
+    {
+        num *= 16777619;
+        num ^= c;
+    }
+
+    return num;
+}

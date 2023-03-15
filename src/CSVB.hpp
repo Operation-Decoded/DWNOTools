@@ -91,6 +91,7 @@ public:
 
     void setStructure(boost::json::object obj);
     bool isValid();
+    void hashStrings();
 };
 
 struct StringBlock

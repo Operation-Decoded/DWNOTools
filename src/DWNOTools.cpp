@@ -7,18 +7,6 @@
 #include <iostream>
 #include <string>
 
-uint32_t makeHash(std::string& input) {
-    if(input.empty())
-        return 0xFFFFFFFF;
-
-    uint32_t num = 2166136261u;
-    for(auto c : input) {
-        num *= 16777619;
-        num ^= c;
-    }
-
-    return num;
-}
 
 int main(int count, char* args[])
 {
@@ -52,9 +40,10 @@ int main(int count, char* args[])
             return 0;
         }
 
-        if(vm.count("hash")) {
+        if (vm.count("hash"))
+        {
             auto string = vm["hash"].as<std::string>();
-            auto hash = makeHash(string);
+            auto hash   = makeHash(string);
 
             std::cout << std::format("{} -> 0x{:8x}", string, hash);
             return 0;
@@ -94,7 +83,7 @@ int main(int count, char* args[])
             if (std::filesystem::is_directory(input))
             {
                 std::filesystem::recursive_directory_iterator itr(input);
-
+                
                 for (auto& path : itr)
                 {
                     if (!path.is_regular_file()) continue;

@@ -32,6 +32,29 @@ CSVBExporter::CSVBExporter(std::filesystem::path inputPath)
 
 bool CSVBExporter::isValid() { return valid; }
 
+void CSVBExporter::hashStrings()
+{
+    for (auto& entry : tables)
+    {
+        for (uint32_t i = 0u; i < entry.entryCount; i++)
+        {
+            char* entryData = data.get() + entry.dataOffset + entry.entrySize * i;
+
+            for (uint32_t i = 0u; i < entry.fieldCount; i++)
+            {
+                auto type = types[entry.name_str()][i];
+                if (type == DataType::VSTRING_UTF8)
+                {
+                    auto offset = *reinterpret_cast<uint32_t*>(entryData);
+                    auto string = std::string(data.get() + header.stringOffset + offset);
+                    RainbowTable::addHash(string);
+                }
+                entryData += static_cast<uint32_t>(getDataTypeSize(type));
+            }
+        }
+    }
+}
+
 std::string CSVBExporter::convertType(DataType type, char* ptr)
 {
     switch (type)
@@ -39,8 +62,14 @@ std::string CSVBExporter::convertType(DataType type, char* ptr)
         case DataType::INT32: return std::to_string(*reinterpret_cast<int32_t*>(ptr));
         case DataType::DEF_INT32: return std::to_string(*reinterpret_cast<int32_t*>(ptr)); // enum?
         case DataType::FLOAT: return std::to_string(*reinterpret_cast<float*>(ptr));
-        case DataType::HASH32: return std::format("{:x}", *reinterpret_cast<uint32_t*>(ptr));
-        case DataType::DEF_HASH32: return std::format("{:x}", *reinterpret_cast<uint32_t*>(ptr));
+        case DataType::HASH32:
+        case DataType::DEF_HASH32:
+        {
+            uint32_t hash = *reinterpret_cast<uint32_t*>(ptr);
+            std::stringstream sstream;
+            sstream << std::quoted(RainbowTable::reverseHash(hash).value_or(std::format("{:x}", hash)), '\"', '\"');
+            return sstream.str();
+        }
         case DataType::VSTRING_UTF8:
         {
             auto offset = *reinterpret_cast<uint32_t*>(ptr);

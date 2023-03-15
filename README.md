@@ -5,16 +5,20 @@ This currently means only CSVB files without variable data (so no `parameter/sce
 
 # Usage
 
+## Extraction
 1. Extract the `DigimonDataR.cpk`, for example using CriPakTools.
 2. Extract the assets of the `parameter` folder with AssetRipper or similar.
 3. Run `DWNOTools.exe -x -i <pathToInputFile> -o <pathToOutputFolder>`
 
 If given a folder it will recursively search for all compatible files.
 
-To rebuild a file run:
+**Do not use Microsoft Excel to modify extracted CSV files, it does not create RFC 4180 compliant CSV. Use LibreOffice/OpenOffice as an alternative.**
+
+## Packing
 1. Run `DWNOTools.exe -p -i <pathToFolder> -o <pathToOutputFile>`
 
-**Do not use Microsoft Excel to modify extracted CSV files, it does not create RFC 4180 compliant CSV. Use LibreOffice/OpenOffice as an alternative.**
+## Hash generation
+1. Run `DWNOTools.exe --hash <yourStringToHash>`
 
 # Building
 
